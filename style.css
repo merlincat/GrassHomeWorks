@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    color: #fafafa;
+    cursor: pointer;
+    text-decoration: none;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-color: #c2d8cb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fafafa;
+
+}
+.container{
+    max-width: 1610px;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
+}
+
+.osnova {
+    display: flex;
+    margin-top: 20px;  
+}
+.zag {
+    width: 20%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.kartinka {
+    width: 80%;
+}
+.inf {
+    width: 80%;
+}
+/*  */
+.main_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.info_status, .info_name{
+    width: 50%;
+}

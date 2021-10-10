@@ -5,135 +5,120 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>less01homework</title>
-    <style>
-        .osnova {
-          display: flex;   
-        }
-        .zag {
-            width: 20%;
-        }
-        .kartinka {
-            width: 80%;
-        }
-        .inf {
-            width: 80%;
-        }
-        .version {
-            text-align: center;
-        }
-        .main_info{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 80%;
-            flex-wrap: wrap;
-        }
-        .info_status, .info_name{
-            width: 50%;
-        }
-        </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="osnova">
-    <div class="zag">
-        <img class="kartinka" src="images/photo1.jpg" alt="Nata Ozerna">
-        <h1>Nataliia Ozerna</h1>
-        <div class="main_info">
-            <div class="info_name">
-                Date of birth:
+<div class="container">
+    <div class="osnova">
+        <div class="zag">
+            <div class="zag__photo">            
+                <img class="kartinka" src="images/photo1.jpg" alt="Nata Ozerna">
             </div>
-            <div class="info_status">
-                02-Oct-1994
-            </div>
-            <div class="info_name">
-                Nationality:
-            </div>
-            <div class="info_status">
-                Ukrainian
-            </div>
-            <div class="info_name">
-                City:
-            </div>
-            <div class="info_status">
-                Poltava
-            </div>
-        </div>       
-        <h3>Contact Info</h3>
-        <div class="main_info">
-            <div class="info_name">
-                Phone number
-            </div>
-            <div class="info_status">
-                0994839184
-            </div>
-            <div class="info_name">
-                Email
-            </div>
-            <div class="info_status">
-                nataozernainf@gmail.com
-            </div>
-            <div class="info_name">
-                Social media
-            </div>
-            <div class="info_status">
-                <a href="https://www.linkedin.com/in/nata-ozerna/"target="_blank">LinkedIn</a>
-            </div>
-            <div class="info_name">
-                Facebook
-            </div>
-            <div class="info_status">
-                <a href="https://www.facebook.com/NataOzerna"target="_blank">Nata Ozerna</a>
-            </div>
-        </div>       
-    </div>
-    <div class="inf">
-        <h3>Experience</h3>
-            <ol>
-                <li>Economist at PE BiAGR
+            <h1>Nataliia Ozerna</h1>
+            <div class="main_info">
+                <div class="info_name">
+                    Date of birth:
+                </div>
+                <div class="info_status">
+                    02-Oct-1994
+                </div>
+                <div class="info_name">
+                    Nationality:
+                </div>
+                <div class="info_status">
+                    Ukrainian
+                </div>
+                <div class="info_name">
+                    City:
+                </div>
+                <div class="info_status">
+                    Poltava
+                </div>
+            </div>       
+            <h3>Contact Info</h3>
+            <div class="main_info">
+                <div class="info_name">
+                    Phone number
+                </div>
+                <div class="info_status">
+                    <a href="tel:0994839184">
+                    0994839184
+                    </a>
+                </div>
+                <div class="info_name">
+                    Email
+                </div>
+                <div class="info_status">
+                    <a href="mailto:nataozernainf@gmail.com">
+                    nataozernainf@gmail.com
+                    </a>
+                </div>
+                <div class="info_name">
+                    Social media
+                </div>
+                <div class="info_status">
+                    <a href="https://www.linkedin.com/in/nata-ozerna/"target="_blank">LinkedIn</a>
+                </div>
+                <div class="info_name">
+                    Facebook
+                </div>
+                <div class="info_status">
+                    <a href="https://www.facebook.com/NataOzerna"target="_blank">Nata Ozerna</a>
+                </div>
+            </div>       
+        </div>
+        <div class="inf">
+            <h3>Experience</h3>
+                <ol>
+                    <li>Economist at PE BiAGR
+                        <ul>
+                            <li>Jun 2021 - Present</li>
+                        </ul>
+                    </li>
+                    <li>Accountant at A.Delvanteez LTD
+                        <ul>
+                            <li>Jun 2020 - Mar 2021</li>
+                        </ul>
+                    </li>
+                    <li>Accountant at VMyaso Restaurant
+                        <ul>
+                            <li>Mar 2019 - Mar 2020</li>
+                        </ul>
+                    </li>
+                    <li>Purchase Assistant at Diversified company Astra LTD
+                        <ul>
+                            <li>Mar 2018 - Feb 2019</li>
+                        </ul>
+                    </li>
+                    <li>Service Consultant at KERNEL LTD
+                        <ul>
+                            <li>Mar 2018 - Feb 2019</li>
+                        </ul>
+                    </li>
+                </ol>
+            <h3>Education</h3> 
+                <p>Poltava National Technical University, Economic Cybernetics, Master degree</p>
                     <ul>
-                        <li>Jun 2021 - Present</li>
+                <li>2013-2018</li>
                     </ul>
-                </li>
-                <li>Accountant at A.Delvanteez LTD
-                    <ul>
-                        <li>Jun 2020 - Mar 2021</li>
-                    </ul>
-                </li>
-                <li>Accountant at VMyaso Restaurant
-                    <ul>
-                        <li>Mar 2019 - Mar 2020</li>
-                    </ul>
-                </li>
-                <li>Purchase Assistant at Diversified company Astra LTD
-                    <ul>
-                        <li>Mar 2018 - Feb 2019</li>
-                    </ul>
-                </li>
-                <li>Service Consultant at KERNEL LTD
-                    <ul>
-                        <li>Mar 2018 - Feb 2019</li>
-                    </ul>
-                </li>
-            </ol>
-        <h3>Education</h3> 
-            <p>Poltava National Technical University, Economic Cybernetics, Master degree</p>
+            <h3>Skills</h3>
                 <ul>
-            <li>2013-2018</li>
+            <li>Infomation Technology</li>
+            <li>1C</li>
+            <li>Purchasing</li>
+            <li>Microsoft Word/Excel</li>
+            <li>Online Lead Generation</li>
+            <li>HTML5/CSS3</li>
+            <li>Bookkeeping</li>
                 </ul>
-        <h3>Skills</h3>
-            <ul>
-        <li>Infomation Technology</li>
-        <li>1C</li>
-        <li>Purchasing</li>
-        <li>Microsoft Word/Excel</li>
-        <li>Online Lead Generation</li>
-        <li>HTML5/CSS3</li>
-        <li>Bookkeeping</li>
-            </ul>
-        <h3>Interests and hobbies</h3>
-            <p>web development, watching movies, anime, twitch and dota2, going to the gym, doing yoga, playing basketball, painting portraits, reading, interested in psychology, listening to screamo and melodic hardcore, I love music on vinyl records and cassettes</p>
+            <h3>Interests and hobbies</h3>
+                <p>web development, watching movies, anime, twitch and dota2, going to the gym, doing yoga, playing basketball, painting portraits, reading, interested in psychology, listening to screamo and melodic hardcore, I love music on vinyl records and cassettes</p>
+        </div>
     </div>
+    
 </div>
 </body>
 </html>
