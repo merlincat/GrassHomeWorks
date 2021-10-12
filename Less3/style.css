@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+.container{
+    max-width: 1380px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px;
+}
+.cards__item{
+    width: calc(33.33% - 30px);
+    height: 100%;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    height: 560px;
+}
+.item__img img{
+    text-align: center;
+    width: 100%;
+}
+.item__img{
+    margin-bottom: 8px;
+}
+.item__char{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+
+}
+.item__char div{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.item__char-blue{
+    background-color: #0000ff;
+}
+.item__char-black{
+    background-color: #000000;
+}
+.item__char-red{
+    background-color: #ff0000;
+}
+.item__char div:hover{
+    border: 3px solid #ffb6c1;
+    transform: scale(1.1);
+}
+.item__header{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #252320;
+}
+.item__sale{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+.sale__action, .sale__credit, .sale__parts{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #514a40;
+}
+.item__footer{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    align-items: center;
+}
+.item__content{
+    flex: 1 0 auto;
+}
+.item__price{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #734e1e;
+}
